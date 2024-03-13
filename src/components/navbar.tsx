@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -21,7 +20,11 @@ const Navbar = () => {
             />
           </svg>
 
-          <a className="my-auto">Search</a>
+          <input
+            type="text"
+            className="my-auto outline-none  bg-zinc-100"
+            placeholder="Search"
+          />
         </div>
         <div className="flex justify-center items-center px-2.5 w-6 h-6 text-xs bg-white rounded-md">
           /
